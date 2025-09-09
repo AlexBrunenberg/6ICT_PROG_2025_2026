@@ -5,6 +5,11 @@ def mag_stemmen(leeftijd, inwoner):
             - 18 of ouder is.
             - een inwoner is van het land.
     """
+    if leeftijd > 17 and inwoner == True:
+        return "mag stemmen"
+    else:
+        return "mag niet stemmen"
+    
 
 
 print( mag_stemmen(17, False) ) # mag niet stemmen

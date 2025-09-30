@@ -8,3 +8,13 @@ laptop_korneel = {
     "supplier": "???",
     "supplier_2": "bol.com"
 }
+
+#niveau 1
+
+laptop_korneel["status"] = "deployed"
+laptop_korneel["supplier"] = "signpost"
+laptop_korneel.pop("supplier_2")
+print(laptop_korneel)
+
+# niveau 2
+# het zijn dictionaries in dictionaries

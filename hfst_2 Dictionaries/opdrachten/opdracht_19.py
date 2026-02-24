@@ -25,3 +25,12 @@ vlucht_reservering_systeem = {
         # Meer passagiersvermeldingen...
     }
 }
+
+def optie1(vlucht_reservering_systeem):
+    print("hoi")
+
+print("Dag beste gebruiker. Waarmee kan ik helpen?")
+print("    1) Boeken van een vlucht.                        (Niveau 1)")
+print("    2) Lijst van passagiers op vlucht tonen. (Niveau 2)")
+optie = input("Welke optie selecteren: ")
+

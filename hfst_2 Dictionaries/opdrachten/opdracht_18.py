@@ -11,3 +11,6 @@ inception_film = {
     'box_office': {'budget': 160000000, 'opbrengst': 829895144},
     'awards': {'Oscars': 0, 'Golden Globes': 4}
 }
+
+for index in range(len(inception_film['cast'])):
+    print(f"{inception_film['cast'][index]['acteur']} speelt {inception_film['cast'][index]['rol']}")

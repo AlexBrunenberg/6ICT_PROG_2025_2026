@@ -11,3 +11,14 @@ scores = [
     [ 7, 6, 5 ],                    # Life
     [ 6, 5, 6, 6 ]                  # Different
 ] 
+
+# niveau 1
+filmscores = {}
+
+for index, score in enumerate(scores):
+    filmscores[films[index]] = score
+print(filmscores)
+
+# niveau 2
+gemiddeldeScores = {}
+

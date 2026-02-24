@@ -28,3 +28,15 @@ laptop_config = {
     "supplier": "???",
     "supplier_2": {"id": 1, "name": "SignPost"}
 }
+
+# niveau 1
+laptop_config["assigned_to"]["created_at"]["date"] = "2021-11-9"
+
+# niveau 2
+laptop_config["supplier"] = laptop_config["supplier_2"]
+laptop_config.pop("supplier_2")
+
+# niveau 3
+for sleutel, waarde in laptop_config.items():
+    if 'id' in waarde:
+        print(laptop_config[sleutel]['id'])
